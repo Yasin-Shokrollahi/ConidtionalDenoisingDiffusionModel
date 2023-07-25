@@ -24,3 +24,6 @@ from keras import layers
 import glob
 
 from tensorflow.keras import regularizers
+
+
+# Hyperparameters
