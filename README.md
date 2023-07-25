@@ -18,13 +18,11 @@ import math
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import tensorflow_datasets as tfds
-
 from tensorflow import keras
 from keras import layers
 import glob
-
 from tensorflow.keras import regularizers
-
+```
 # This is the second code block
 print("Hello again, world!")
 
