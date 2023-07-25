@@ -26,4 +26,4 @@ import glob
 from tensorflow.keras import regularizers
 
 
-# Hyperparameters
+Hyperparameters
