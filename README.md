@@ -5,5 +5,5 @@ This Python script uses TensorFlow and Keras to process and train a neural netwo
    3. You're welcome to adjust the hyperparameters in the code as per your requirements.
 Here is some Python code:
 
-![My Image](./0.png)
+![My Image](./ezgif-3-45cc3d4bfd.gif)
 
