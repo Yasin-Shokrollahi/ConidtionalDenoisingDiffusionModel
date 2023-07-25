@@ -25,5 +25,6 @@ import glob
 
 from tensorflow.keras import regularizers
 
+> This is some text in a quote block.
 
 Hyperparameters
