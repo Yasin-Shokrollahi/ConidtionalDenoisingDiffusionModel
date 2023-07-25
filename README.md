@@ -8,13 +8,19 @@ Here is some Python code:
 ![My Image](./ezgif-3-45cc3d4bfd.gif)
 
 
-This will render as a nicely formatted block of code.
-
-Remember to commit and push the changes to your repository after editing the README.md file.
 
 
-Here is some Python code:
+
+Set up:
 
 ```python
-def hello_world():
-    print("Hello, world!")
+import math
+import matplotlib.pyplot as plt
+import tensorflow as tf
+import tensorflow_datasets as tfds
+
+from tensorflow import keras
+from keras import layers
+import glob
+
+from tensorflow.keras import regularizers
