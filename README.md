@@ -30,9 +30,8 @@ You can change all these hyperparameters based on your projects
 
 
 
-```
+```python
 
-# data
 dataset_repetitions = 5
 num_epochs = 1000  # train for at least 50 epochs for good results
 image_size = 128
