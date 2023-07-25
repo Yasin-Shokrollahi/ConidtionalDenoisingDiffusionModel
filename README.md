@@ -3,3 +3,4 @@ This Python script uses TensorFlow and Keras to process and train a neural netwo
    1. Kindly download the Artery file that includes two folders of images: Input and Stress Map.
    2. Proceed to execute the code in the Jupyter notebook, ensuring that you're using a GPU for computation.
    3. You're welcome to adjust the hyperparameters in the code as per your requirements.
+
