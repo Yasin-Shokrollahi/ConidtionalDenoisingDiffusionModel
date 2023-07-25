@@ -25,6 +25,6 @@ import glob
 
 from tensorflow.keras import regularizers
 
-> This is some text in a quote block.
+# This is the second code block
+print("Hello again, world!")
 
-Hyperparameters
