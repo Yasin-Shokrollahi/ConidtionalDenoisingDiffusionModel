@@ -11,7 +11,7 @@ Here is some Python code:
 
 
 
-Set up:
+## Set up:
 
 ```python
 import math
@@ -25,18 +25,36 @@ from tensorflow.keras import regularizers
 ```
 
 
-## Dataset
-You should structure your aligned dataset in the following way:
+## Hyperparameters
+You can change all these hyperparameters based on your projects
 
 
 
 ```
-input_path/
-  ├── data_train_contrast1.mat
-  ├── data_train_contrast2.mat
-  ├── data_val_contrast1.mat
-  ├── data_val_contrast2.mat
-  ├── data_test_contrast1.mat
-  ├── data_test_contrast2.mat
+
+# data
+dataset_repetitions = 5
+num_epochs = 1000  # train for at least 50 epochs for good results
+image_size = 128
+# KID = Kernel Inception Distance, see related section
+kid_image_size = 75
+kid_diffusion_steps = 5
+plot_diffusion_steps = 20
+
+# sampling
+min_signal_rate = 0.02
+max_signal_rate = 0.95
+
+# architecture
+embedding_dims = 64
+embedding_max_frequency = 1000.0
+widths = [32, 64, 128, 256, 512]
+block_depth = 2
+
+# optimization
+batch_size = 4
+ema = 0.999
+learning_rate = 1e-4
+weight_decay = 1e-8
 ```
 
