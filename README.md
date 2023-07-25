@@ -23,10 +23,20 @@ from keras import layers
 import glob
 from tensorflow.keras import regularizers
 ```
-# This is the second code block
-print("Hello again, world!")
 
-where .mat files has shape of (#images, width, height) and image values are between 0 and 1.0. 
-### Sample Data
-Sample toy data can also found under 'SynDiff_sample_data' folder of the repository. 
+
+## Dataset
+You should structure your aligned dataset in the following way:
+
+
+
+```
+input_path/
+  ├── data_train_contrast1.mat
+  ├── data_train_contrast2.mat
+  ├── data_val_contrast1.mat
+  ├── data_val_contrast2.mat
+  ├── data_test_contrast1.mat
+  ├── data_test_contrast2.mat
+```
 
